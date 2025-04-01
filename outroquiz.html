@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Como viver o mundo da programação</title>
+    <meta name="description" content="Um quiz interativo sobre a vida e carreira na programação.">
+    <link rel="stylesheet" href="stylenovo.css">
+</head>
+<body>
+    <header>
+        <h1>Como viver o mundo da programação</h1>
+        <p>Descubra se você tem o perfil para essa carreira e como aproveitar ao máximo!</p>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre este quiz</h2>
+            <p><strong>Este quiz</strong> explora diferentes aspectos da vida de um programador, desde o aprendizado até o dia a dia no trabalho.</p>
+            <p>Você encontrará perguntas sobre habilidades necessárias, desafios comuns e dicas para prosperar na área. <br>Prepare-se para uma jornada de autoconhecimento!</p>
+        </section>
+        <section>
+            <h2>Pergunta 1: Qual habilidade é essencial para um programador, além do conhecimento técnico?</h2>
+            <form>
+                <input type="radio" value="a" id="p1a" name="pergunta1">
+                <label for="p1a">Excelente comunicação</label><br>
+                <input type="radio" value="b" id="p1b" name="pergunta1">
+                <label for="p1b">Capacidade de resolver problemas</label><br>
+                <input type="radio" value="c" id="p1c" name="pergunta1">
+                <label for="p1c">Conhecimento avançado em matemática</label><br>
+                <input type="radio" value="d" id="p1d" name="pergunta1">
+                <label for="p1d">Fluência em diversos idiomas</label><br>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 2: Qual é um desafio comum enfrentado por programadores iniciantes?</h2>
+            <form>
+                <input type="text" id="p2" name="pergunta2"
+                       placeholder="Digite sua resposta..." class="tamanho">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 3: Quais são formas eficazes de se manter atualizado na área de programação? (Selecione todas as que se aplicam)</h2>
+            <form>
+                <input type="checkbox" id="p3a" name="pergunta3[]" value="cursos">
+                <label for="p3a">Fazer cursos online e presenciais</label><br>
+                <input type="checkbox" id="p3b" name="pergunta3[]" value="eventos">
+                <label for="p3b">Participar de eventos e conferências</label><br>
+                <input type="checkbox" id="p3c" name="pergunta3[]" value="livros">
+                <label for="p3c">Ler livros técnicos antigos</label><br>
+                <input type="checkbox" id="p3d" name="pergunta3[]" value="comunidade">
+                <label for="p3d">Interagir com a comunidade online e offline</label><br>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 4: Além do salário, o que muitos programadores valorizam em um emprego?</h2>
+            <form>
+                <input type="text" id="p4" name="pergunta4"
+                       placeholder="Digite sua resposta..." class="tamanho">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 5: Qual é uma dica importante para lidar com o estresse na rotina de um programador?</h2>
+            <form>
+                <input type="radio" value="a" id="p5a" name="pergunta5">
+                <label for="p5a">Trabalhar continuamente sem pausas</label><br>
+                <input type="radio" value="b" id="p5b" name="pergunta5">
+                <label for="p5b">Isolar-se para focar melhor</label><br>
+                <input type="radio" value="c" id="p5c" name="pergunta5">
+                <label for="p5c">Manter um equilíbrio entre trabalho e vida pessoal</label><br>
+                <input type="radio" value="d" id="p5d" name="pergunta5">
+                <label for="p5d">Evitar pedir ajuda aos colegas</label><br>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 6: Que tipo de mentalidade é útil para um programador desenvolver ao longo da carreira?</h2>
+            <form>
+                <input type="text" id="p6" name="pergunta6"
+                       placeholder="Digite sua resposta..." class="tamanho">
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 7: Qual destes NÃO é geralmente considerado um benefício de trabalhar como programador?</h2>
+            <form>
+                <input type="radio" value="a" id="p7a" name="pergunta7">
+                <label for="p7a">Flexibilidade de horários</label><br>
+                <input type="radio" value="b" id="p7b" name="pergunta7">
+                <label for="p7b">Oportunidades de trabalho remoto</label><br>
+                <input type="radio" value="c" id="p7c" name="pergunta7">
+                <label for="p7c">Rotina extremamente previsível e sem mudanças</label><br>
+                <input type="radio" value="d" id="p7d" name="pergunta7">
+                <label for="p7d">Possibilidade de criar projetos inovadores</label><br>
+            </form>
+        </section>
+        <section>
+            <h2>Pergunta 8: Qual é um conselho importante para quem está começando na programação?</h2>
+            <form>
+                <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta">
+            </form>
+        </section>
+
+        <section>
+            <h2>Seu Perfil no Mundo da Programação</h2>
+            <table id="tabela_2">
+                <thead>
+                    <tr>
+                        <th>Respostas Corretas</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Você está começando a explorar este mundo! Continue aprendendo sobre a carreira.</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Você tem uma boa ideia do que envolve a programação. Continue se informando!</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>Você parece bem preparado para os desafios e recompensas da programação!</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Excelente! Você compreende bem a vida e carreira na programação.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Continue explorando e aprendendo sobre o mundo da programação!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+                <summary>Clique aqui para saber as respostas do Quiz</summary>
+                <ol>
+                    <li>Capacidade de resolver problemas</li>
+                    <li>Dificuldade em entender conceitos complexos ou lidar com erros</li>
+                    <li>Fazer cursos online e presenciais, Participar de eventos e conferências, Interagir com a comunidade online e offline</li>
+                    <li>Cultura da empresa, oportunidades de aprendizado, projetos desafiadores</li>
+                    <li>Manter um equilíbrio entre trabalho e vida pessoal</li>
+                    <li>Mentalidade de crescimento (growth mindset)</li>
+                    <li>Rotina extremamente previsível e sem mudanças</li>
+                    <li>Seja paciente e persistente, comece com o básico e pratique regularmente</li>
+                </ol>
+            </details>
+        </section>
+        <section>
+            <h2>Nos dê o seu feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações de contacto</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comentários">Comentários:</label><br>
+                    <textarea id="comentários" name="comentário" rows="4" cols="40" placeholder="Digite seu comentário"></textarea><br>
+                    <button onclick="alert('Enviado')">Envie o feedback</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="paragrafo-footer">&copy Quiz sobre o Mundo da Programação. Todos os direitos reservados</p>
+        <p class="paragrafo-footer">Para conhecer outros quizzes <a href="outroquiz.html"></p>
+    </footer>
+</body>
+</html>
